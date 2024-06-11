@@ -1,5 +1,3 @@
-// ./components/Experience.jsx
-
 import React from 'react';
 import { Loop } from './Loop';
 import Scratch from './Scratch';

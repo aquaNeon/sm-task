@@ -3,7 +3,6 @@ import LegendaryCursor from 'legendary-cursor';
 
 const Scratch = () => {
     useEffect(() => {
-        // Initialize LegendaryCursor with proper settings.
         LegendaryCursor.init({
             lineSize: 0.075,
             opacityDecrement: 0.5,
@@ -15,7 +14,7 @@ const Scratch = () => {
             texture2: 'textures/8.jpg', // on press texture
         });
 
-        // Cleanup LegendaryCursor on component unmount.
+        // Cleanup LegendaryCursor on component unmount
         return () => {
             LegendaryCursor.destroy();
         };
